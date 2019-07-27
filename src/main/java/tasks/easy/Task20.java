@@ -6,12 +6,6 @@ import java.util.Stack;
 
 public class Task20 {
 
-    public static void main(String[] args) {
-
-
-        System.out.println(isValid("()]"));
-    }
-
     public static boolean isValid(String str) {
 
         if (str.length() == 0) {
