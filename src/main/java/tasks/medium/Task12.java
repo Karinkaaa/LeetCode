@@ -1,4 +1,4 @@
-package tasks.easy;
+package tasks.medium;
 
 import java.util.HashMap;
 import java.util.Map;

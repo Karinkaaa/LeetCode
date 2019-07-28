@@ -1,9 +1,9 @@
-package tasks.easy;
+package tasks.medium;
 
 import org.junit.Assert;
 import org.junit.Test;
 
-import static tasks.easy.Task12.intToRoman;
+import static tasks.medium.Task12.intToRoman;
 
 public class Task12Test {
 
