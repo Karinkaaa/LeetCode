@@ -1,8 +1,7 @@
-package tasks;
+package tasks.easy;
 
 import org.junit.Assert;
 import org.junit.Test;
-import tasks.easy.Task14;
 
 public class Task14Test {
 
