@@ -1,4 +1,4 @@
-package tasks.easy;
+package tasks;
 
 import org.junit.Assert;
 import org.junit.Test;
