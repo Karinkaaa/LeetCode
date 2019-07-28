@@ -22,7 +22,6 @@ public class Task12 {
         map.put(500, "D");
         map.put(1000, "M");
 
-
         return "";
     }
 }
