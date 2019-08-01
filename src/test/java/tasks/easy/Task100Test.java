@@ -46,4 +46,25 @@ public class Task100Test {
 
         Assert.assertFalse(isSameTree(treeNode, treeNode2));
     }
+
+     @Test
+    public void isSameTreeTest4() {
+
+        Task100.TreeNode treeNode = new Task100.TreeNode(1);
+
+        Task100.TreeNode treeNode2 = new Task100.TreeNode(1);
+        treeNode2.left = new Task100.TreeNode(1);
+        treeNode2.right = new Task100.TreeNode(2);
+
+        Assert.assertFalse(isSameTree(treeNode, treeNode2));
+    }
+
+    @Test
+    public void isSameTreeTest5() {
+
+        Task100.TreeNode treeNode = new Task100.TreeNode(1);
+        Task100.TreeNode treeNode2 = new Task100.TreeNode(1);
+
+        Assert.assertFalse(isSameTree(null, treeNode));
+    }
 }
