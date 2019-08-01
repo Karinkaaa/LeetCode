@@ -4,12 +4,21 @@ public class Task69 {
 
     public static int mySqrt(int x) {
 
-        for (int i = 1; i < x; i++) {
+        float start = 0, end = x / 2 - 1, midd = x;
 
-            if ((i * i) > x) return i - 1;
-            if ((i * i) == x) return i;
+        while (end > 0 && start >= 0 && midd > 0) {
+
+            midd = (start + end) / 2;
+
+            if (x < midd * midd) {
+                end = midd - 1;
+            } else if (x > midd * midd) {
+                start = midd - 1;
+            } else {
+                return (int) midd;
+            }
         }
 
-        return x;
+        return (int) midd;
     }
 }
