@@ -13,10 +13,10 @@ public class Task104 {
         }
     }
 
-    public static int maxDepth(TreeNode node) {
+    public static int maxDepth(TreeNode root) {
 
-        if (node == null) return 0;
+        if (root == null) return 0;
 
-        return Math.max(maxDepth(node.left), maxDepth(node.right)) + 1;
+        return Math.max(maxDepth(root.left), maxDepth(root.right)) + 1;
     }
 }
