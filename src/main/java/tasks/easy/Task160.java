@@ -33,7 +33,7 @@ public class Task160 {
     public static ListNode getIntersectionNode(ListNode headA, ListNode headB) {
 
         ListNode tmpHeadA = headA;
-        ListNode tmpHeadB = headB;
+        ListNode tmpHeadB;
 
         while (tmpHeadA != null) {
 
