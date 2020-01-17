@@ -24,6 +24,6 @@ public class Task53 {
 
         int maxValue = Arrays.stream(nums).max().getAsInt();
 
-        return maxValue > maxSum ? maxValue : maxSum;
+        return Math.max(maxValue, maxSum);
     }
 }
