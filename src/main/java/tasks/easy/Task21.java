@@ -2,31 +2,6 @@ package tasks.easy;
 
 public class Task21 {
 
-    public static void main(String[] args) {
-
-        Task21.ListNode l1 = new Task21.ListNode(1);
-        Task21.ListNode l2 = new Task21.ListNode(4);
-        Task21.ListNode l3 = new Task21.ListNode(6);
-
-        Task21.ListNode l4 = new Task21.ListNode(2);
-        Task21.ListNode l5 = new Task21.ListNode(3);
-        Task21.ListNode l6 = new Task21.ListNode(5);
-
-        l1.next = l2;
-        l2.next = l3;
-
-        l4.next = l5;
-        l5.next = l6;
-
-        ListNode res = mergeTwoLists(l1, l4);
-
-        while (res != null) {
-
-            System.out.println("res = " + res.val);
-            res = res.next;
-        }
-    }
-
     public static class ListNode {
 
         int val;
