@@ -11,7 +11,7 @@ public class Task1 {
                 if (i != j) {
 
                     if ((nums[i] + nums[j]) == target) {
-                        return new int[] {i, j};
+                        return new int[]{i, j};
                     }
                 }
             }

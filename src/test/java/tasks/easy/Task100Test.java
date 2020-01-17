@@ -47,7 +47,7 @@ public class Task100Test {
         Assert.assertFalse(isSameTree(treeNode, treeNode2));
     }
 
-     @Test
+    @Test
     public void isSameTreeTest4() {
 
         Task100.TreeNode treeNode = new Task100.TreeNode(1);
