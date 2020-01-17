@@ -2,17 +2,6 @@ package tasks.easy;
 
 public class Task66 {
 
-    public static void main(String[] args) {
-
-        int[] arr = new int[]{1, 2, 9};
-
-        arr = plusOne(arr);
-
-        for (int i = 0; i < arr.length; i++) {
-            System.out.print(arr[i] + " ");
-        }
-    }
-
     public static int[] plusOne(int[] digits) {
 
         int length = digits.length;
