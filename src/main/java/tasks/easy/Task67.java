@@ -2,12 +2,6 @@ package tasks.easy;
 
 public class Task67 {
 
-    public static void main(String[] args) {
-
-        System.out.println(addBinary("11", "1001"));
-
-    }
-
     public static String addBinary(String a, String b) {
 
         String res = "";
